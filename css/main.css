@@ -1688,11 +1688,11 @@ section .types.e-learn .type{
 
 /* frameworks page */
 .types.play .type{
-    height: 300px;
+    height: 310px;
 }
 
 .types.wright .type{
-    height: 350px;
+    height: 400px;
 }
 @media(max-width:991px){
     .types.play .type{
@@ -1719,7 +1719,7 @@ section .types.e-learn .type{
 }
 
 .types.selenium2 .type{
-    height: 300px;
+    height: 400px;
 }
 @media(max-width:991px){
     .types.selenium1 .type{
@@ -1745,10 +1745,10 @@ section .types.e-learn .type{
     }
 }
 .types.cypress1 .type{
-    height: 250px;
+    height: 350px;
 }
 .types.cypress2 .type{
-    height: 250px;
+    height: 350px;
 }
 @media(max-width:991px){
    
@@ -1774,10 +1774,10 @@ section .types.e-learn .type{
     }
 }
 .types.cucumber1 .type{
-    height: 300px;
+    height: 360px;
 }
 .types.cucumber2 .type{
-    height: 350px;
+    height: 410px;
 }
 @media(max-width:991px){
    
@@ -1803,6 +1803,9 @@ section .types.e-learn .type{
       
     }
 }
+.types.appium .type{
+    height:350px;
+}
 @media(max-width:991px){
    
     .types.appium .type{
@@ -1822,7 +1825,7 @@ section .types.e-learn .type{
 
 }
 .types.testng .type{
-    height: 300px;
+    height: 350px;
 }
 @media(max-width:991px){
    
@@ -1870,7 +1873,7 @@ section.postman ul li{
     }
 }
 .types.tosca .type{
-    height: 200px;
+    height: 230px;
 }
 @media(max-width:991px){
  
