@@ -141,13 +141,13 @@ let languageSelector= document.querySelector("select");
 languageSelector.addEventListener("change",(e)=>{
    
     selectLanguage(e.target.value);
+    
     localStorage.setItem("lang",e.target.value);
-})
-document.addEventListener("DOMContentLoaded",()=>{
-    const language = localStorage.getItem("lang");
+});
+window.onload = function (){
+    selectLanguage(localStorage.getItem("lang"));
+}
 
-    selectLanguage(language);
-})
 const selectLanguage=(language) => {
         const elements = document.querySelectorAll("[data-i18n]");
         elements.forEach((element)=>{
@@ -155,6 +155,9 @@ const selectLanguage=(language) => {
             element.textContent= translations[language][translationsKey];
         });
         document.dir = language === "ar" ? "rtl" : "ltr";
+        
 };
+
+
 
 
